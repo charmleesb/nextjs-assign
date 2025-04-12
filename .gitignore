@@ -1,0 +1,43 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Next.js build output
+.next/
+out/
+dist/
+
+# dotenv environment variables
+.env*
+!.env.example
+
+# Logs
+logs/
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor folders
+.vscode/
+.idea/
+*.swp
+
+# Optional: Dependency directories (monorepo style)
+packages/*/node_modules/
+
+# Optional: local runtime data
+.next/cache
+
+# Optional: coverage reports
+coverage/
+
+# Optional: generated static files
+public/static/
+
+# TypeScript build cache
+*.tsbuildinfo

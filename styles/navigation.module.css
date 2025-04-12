@@ -1,0 +1,25 @@
+.nav {
+  padding: 20px;
+  position: absolute;
+  top: 0;
+  width: 100vw;
+}
+
+.nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navLink {
+  text-decoration: none;
+  color: gray;
+}
+
+.navLink:hover {
+  color: white;
+}
+
+.active {
+  border-bottom: 2px solid white;
+  color: white;
+}

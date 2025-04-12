@@ -1,5 +1,6 @@
 import { Metadata } from "next";
-
+import Navigation from "../components/navigation";
+import "../styles/global.css";
 export const metadata: Metadata = {
   title: {
     template: "%s | Bestsellers",
@@ -16,7 +17,7 @@ export default function Layout({
   return (
     <html lang="en">
       <body>
-        <div>Navigation</div>
+        <Navigation />
         {children}
       </body>
     </html>

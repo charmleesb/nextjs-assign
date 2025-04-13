@@ -5,8 +5,7 @@ import styles from "./page.module.css";
 export const metadata: Metadata = {
   title: "Home"
 }
-
-export const API_URL = "https://books-api.nomadcoders.workers.dev/lists";
+import { API_URL } from "@/lib/constants";
 
 async function getCategories() {
   const response = await fetch(API_URL);

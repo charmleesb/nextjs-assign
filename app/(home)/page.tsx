@@ -5,7 +5,7 @@ import styles from "./page.module.css";
 export const metadata: Metadata = {
   title: "Home"
 }
-import { API_URL } from "@/lib/constants";
+import { API_URL } from "../../lib/constant.ts";
 
 async function getCategories() {
   const response = await fetch(API_URL);

@@ -1,0 +1,62 @@
+.bookList {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.book {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 40px;
+    height: 600px;
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+}
+
+.book img {
+    background-size: cover;
+    height: 300px;
+}
+
+.bookInfo {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.author {
+    color: rgb(204, 0, 255);
+    font-size: 15px;
+}
+
+.buyLinkWrap {
+    padding: 10px 30px;
+    border-radius: 35px;
+    background-color: orangered;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.buyLinkWrap:hover {
+    opacity: 0.7;
+}
+
+.categoryTitle {
+    text-align: center;
+    padding: 30px 0;
+    font-size: 30px;
+}
